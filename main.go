@@ -11,8 +11,6 @@ import (
 // permutations of s that utilize ALL characters of s.
 
 func main() {
-	// Returns true as there are three palindrome
-	// permutations: "aabbaa", "abaaba", "baaaab",
 	k := 3
 	s := "aabbaa"
 	res := kpalindromes.Kpalindromes(k, s)
